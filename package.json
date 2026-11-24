@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --expose URL=http://localhost:4000",
-    "test-qa": "cypress run --expose URL=https://bugbank.netlify.app/",
-    "cy:headed": "cypress run --headed --expose URL=http://localhost:4000",
-    "cy:open": "cypress open --expose URL=http://localhost:4000"
+    "test": "cypress run",
+    "test-qa": "cypress run",
+    "cy:headed": "cypress run --headed",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
