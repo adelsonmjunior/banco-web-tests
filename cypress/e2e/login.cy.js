@@ -1,7 +1,7 @@
 describe("Login", () => {
   beforeEach(() => {
     //Arrange
-    cy.visit(Cypress.expose('URL'));
+    cy.visit("/");
   });
 
   it("Login com credenciais válidas deve permitir acesso ao sistema", () => {
